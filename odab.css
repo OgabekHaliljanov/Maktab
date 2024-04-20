@@ -154,11 +154,11 @@ text-align: center;
     
   }
   .footer{
-    height: 150px;
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    flex-direction: column;
     font-size: 10px;
   }
 }
