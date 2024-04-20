@@ -1,3 +1,5 @@
-var shape = document.querySelector('.hexagon');
-var shapeLength = shape.getTotalLength();
-console.log(shapeLength);
+$('.txt').html(function(i, html) {
+    var chars = $.trim(html).split("");
+  
+    return '<span>' + chars.join('</span><span>') + '</span>';
+  });
