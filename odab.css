@@ -91,3 +91,148 @@ text-align: center;
 .a{
   font-size: 20px;
 }
+@media only screen and (max-width: 768px) {
+  nav {
+      padding-top: 20px;
+      height: auto;
+  }
+
+  ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .logo {
+      margin-top: 10px;
+  }
+  .cont{
+    flex-direction: column;
+  }
+
+  .container, .container1 {
+      width: 90%;
+      margin: 20px auto;
+  }
+}
+@media screen and (min-width: 760px) {
+  .kl{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 760px) {
+  .container {
+      width: 100%;
+
+  }
+
+  nav {
+    width: 100%;
+    height: 150px;
+      flex-direction: column;
+      text-align: center;
+      font-size: 20px;
+  }
+
+ 
+  .orta >h1{
+    font-size: 40px;
+  }
+  nav .lp {
+     display:none;
+
+  }
+.kl{
+  display: block;
+}
+  nav ul li {
+      margin: 10px 0;
+      flex-direction: column;
+  }
+  input{
+   margin-left: 250px;
+    
+  }
+  .footer{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .container {
+    width: 100%;
+font-size: 10px;
+}
+.container1 {
+  width: 100%;
+font-size: 10px;
+}
+}
+/* Для устройств шириной меньше 480px */
+@media screen and (max-width: 480px) {
+  .container {
+      width: 100%;
+  }
+}
+
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.menu ul {
+ 
+  padding: 0;
+}
+
+.menu ul li {
+  padding: 8px 0;
+}
+
+
+
+.menu ul li a:hover {
+  color: #007bff;
+}
+.menu {
+  display: none  ;
+  background-color: #00254e;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  animation: slideIn 0.3s forwards;
+  color: white;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.menu ul {
+  padding: 0;
+  flex-direction: column;
+}
+
+.menu ul li {
+  padding: 8px 0;
+}
+
+
+
+.menu ul li a:hover {
+  color: #007bff;
+}

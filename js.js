@@ -1,5 +1,9 @@
-$('.txt').html(function(i, html) {
-    var chars = $.trim(html).split("");
-  
-    return '<span>' + chars.join('</span><span>') + '</span>';
-  });
+
+document.getElementById("toggleMenuBtn").addEventListener("click", function() {
+  var menu = document.getElementById("menu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+});
