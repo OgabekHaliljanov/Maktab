@@ -39,7 +39,17 @@
   }
   
   
-  
+  #toggleMenuBtn{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0353af;
+    color: white;
+    margin-top: -60px;
+    margin-left: -70px;
+    position: absolute;
+  }
   
   .conainer{
     width: 100%;
