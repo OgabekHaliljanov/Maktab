@@ -45,6 +45,7 @@
                 <input type="email" placeholder="Email adres" >
                 <input type="search" placeholder="Coment" >
             </div>
+            <button id="clearInputsBtn">Yuborish</button>
         </div>
      
    
@@ -60,5 +61,19 @@
        </div>
 </body>
 <script src="./js.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const clearInputsButton = document.getElementById('clearInputsBtn');
+
+        if (clearInputsButton) {
+            clearInputsButton.addEventListener('click', function () {
+                const inputElements = document.querySelectorAll('input[type="number"], input[type="email"], input[type="search"]');
+                inputElements.forEach(function (input) {
+                    input.value = ''; // Очистить значение инпута
+                });
+            });
+        }
+    });
+</script>
 
 </html>
