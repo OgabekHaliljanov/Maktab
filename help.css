@@ -63,11 +63,12 @@
   input{
     width: 200px;
     height: 40px;
-    border-radius: 5px;
   text-indent: 20px;
   outline: invert;
   border: none;
+  border-bottom: 2px solid #00254e;
   margin-top: -5px;
+ 
   }
   .dv{
     width: 700px;
@@ -99,7 +100,7 @@
   }
   @media only screen and (min-width: 768px) {
     .dve{
-     
+     display: block;
      flex-direction: column;
    
     }
@@ -232,11 +233,10 @@
     
   }
   .footer{
-    height: 350px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
     font-size: 10px;
   }
 }
@@ -428,4 +428,31 @@ span
     opacity: 1;
 
     filter: alpha(opacity=100);
+}
+.ort{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.lk{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  flex-direction: column;
+}@media only screen and (max-width: 768px) {
+  /* Ваши стили для мобильных устройств */
+  .lp {
+      display: none; /* Скрыть меню в виде списка на маленьких экранах */
+  }
+  .kl {
+      display: block; /* Показать кнопку для открытия меню на маленьких экранах */
+  }
+  #menu {
+      display: none; /* Скрыть основное меню на маленьких экранах */
+  }
 }
