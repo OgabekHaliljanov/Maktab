@@ -207,13 +207,10 @@
   }
 
  
-  .orta >h1{
+  .ort >h1{
     font-size: 40px;
   }
-  nav .lp {
-     display:none;
-
-  }
+ 
 .kl{
   display: block;
 }
@@ -248,6 +245,7 @@ font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -230px;
 }
 }
 
