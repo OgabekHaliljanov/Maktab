@@ -47,7 +47,7 @@
     background-color: #0353af;
     color: white;
     margin-top: -60px;
-    margin-left: -70px;
+    margin-left: 150px;
     position: absolute;
   }
   
@@ -97,17 +97,37 @@
     margin-left: 150px;
     margin-top: -100px;
   }
+  @media only screen and (min-width: 768px) {
+    .dve{
+     
+     flex-direction: column;
+   
+    }
+  }
+
   @media only screen and (max-width: 768px) {
    
 
     
     .conainer{
-      display: flex;
+
+    flex-direction: column;
+     
+    }
+    
+    .two{
+     
+ 
+    }
+    .dve{
+      flex-direction: column;
     
      
     }
     .dv{
-      margin-left: 200px;
+      flex-direction: column;
+
+      
     }
 }
   @media screen and (max-width: 768px) {
@@ -130,6 +150,29 @@
     .container {
         width: 95%;
     }
+    .conainer{
+      margin-left: 200px;
+        width: 50%;
+      flex-direction: column;
+       
+      }
+      
+      .two{
+       
+        margin-left: 470px;
+        position: absolute;
+      }
+      .dve{
+        flex-direction: column;
+      
+        margin-left: 15 0px;
+        margin-top: -100px;
+      }
+      .dv{
+        flex-direction: column;
+  
+        margin-left: 200px;
+      }
     
     input {
         width: 100%;
@@ -185,7 +228,7 @@
     
   }
   .footer{
-    height: 150px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -262,4 +305,123 @@ font-size: 10px;
 
 .menu ul li a:hover {
   color: #007bff;
+}
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+
+.unbreakable-container
+{
+    
+    bottom: 10px;
+    left: 20px;
+}
+
+.unbreakable
+{
+    font-family: 'Anton', sans-serif;
+    line-height: 1;
+
+    letter-spacing: -.07em;
+
+    color: #fff;
+}
+
+.ks
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    line-height: 1;
+
+    margin-top: -11px;
+
+    -webkit-transition: all .3s ease-in-out;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 3s;
+    -webkit-transform: translateX(-1000%);
+        -ms-transform: translateX(-1000%);
+            transform: translateX(-1000%);
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+    color: #fc0;
+}
+
+.animate .ks
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+
+span
+{
+    font-family: 'Anton', Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-indent: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+    opacity: 0;
+    color: #fff;
+    filter: alpha(opacity=0);
+}
+
+.able
+{
+    -webkit-transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+    letter-spacing: -.07em;
+}
+
+.break
+{
+    -webkit-transition: all .3s ease-in-out 2s;
+            transition: all .3s ease-in-out 2s;
+    letter-spacing: -.07em;
+}
+
+.un
+{
+    -webkit-transition: all .3s ease-in-out 1.7s;
+            transition: all .3s ease-in-out 1.7s;
+    letter-spacing: -.07em;
+}
+
+.animate .un
+{
+    font-size: 20px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.animate .break
+{
+    font-size:20px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.animate .able
+{
+    font-size: 20px;
+    margin-top: -10px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
 }

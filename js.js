@@ -7,3 +7,12 @@ document.getElementById("toggleMenuBtn").addEventListener("click", function() {
     menu.style.display = "block";
   }
 });
+var hotbod = document.querySelector("body");
+
+function doStuff() {
+    hotbod.className += " animate";
+}
+
+window.onload = function() {
+    doStuff();
+};
