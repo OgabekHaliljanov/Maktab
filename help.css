@@ -115,11 +115,7 @@
     flex-direction: column;
      
     }
-    
-    .two{
-     
- 
-    }
+
     .dve{
       flex-direction: column;
     
@@ -222,7 +218,7 @@
   display: block;
 }
 .lp{
-  display: none;
+ display: none;
 }
   nav ul li {
       margin: 10px 0;
@@ -245,6 +241,18 @@
     width: 100%;
 font-size: 10px;
 }
+
+
+@media screen and (max-width: 770px) {
+  .ort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+
 }
 /* Для устройств шириной меньше 480px */
 @media screen and (max-width: 480px) {
@@ -442,13 +450,25 @@ span
   height: 500px;
   display: flex;
   align-items: center;
-   justify-content: center;
-  flex-direction: column;
+   justify-content:center;
+
 }@media only screen and (max-width: 768px) {
   /* Ваши стили для мобильных устройств */
   .lp {
       display: none; /* Скрыть меню в виде списка на маленьких экранах */
   }
+  nav > ul> li{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    flex-direction: column;
+  }
+  nav>button{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+  }
+
   .kl {
       display: block; /* Показать кнопку для открытия меню на маленьких экранах */
   }
