@@ -100,13 +100,10 @@
   @media only screen and (max-width: 768px) {
    
 
-    .two {
-        margin-left: 0; /* Reset margin for smaller screens */
-        margin-top: 20px; /* Adjust margin-top for smaller screens */
-    }
+    
     .conainer{
       display: flex;
-   margin-left: 200px;
+    
      
     }
     .dv{
