@@ -1,0 +1,22 @@
+/* Stil berish uchun CSS kodlari */
+.image-container {
+    width:1200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+   
+}
+.image {
+    width: 250px;
+    height: 300px;
+    display: block;
+}
+.imge {
+    width: 450px;
+    height: 300px;
+    display: block;
+}
+.ml{
+    padding: 50px;
+}

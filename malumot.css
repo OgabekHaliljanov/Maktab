@@ -667,10 +667,7 @@ span
   #menu {
       display: none; /* Скрыть основное меню на маленьких экранах */
   }
-  .im{
-    width: 500px;
-    height: 500px;
-  }
+ 
 }
 .im{
     width: 100%;
@@ -681,3 +678,5 @@ span
 
 
 }
+
+
