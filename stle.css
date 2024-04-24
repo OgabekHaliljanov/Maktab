@@ -8,7 +8,7 @@
 .container{
   width: 100%;
   height: 100vh;
-  background-image: url("./69rWaxdEsDiVc5nHMPpvv3yf4ih8FK7f-xl.jpg");
+  background-image: url("./photo_2023-01-10_07-26-52.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@ display: flex;
   justify-content: center;
   align-items: center;
 text-align: center;
-margin-top: 150px;
+margin-top: 10px;
 font-size: 40px;
 }
 .footer{
