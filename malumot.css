@@ -81,9 +81,7 @@
       font-size: 10px;
     }
   }
-  .coainer{
-    
-  }
+  
   @media screen and (max-width: 580px) {
     .container {
       width: 100%;
@@ -344,9 +342,7 @@
     align-items: center;
     justify-content: center;
       }
-      #toggleMenuBtn{
-
-      }
+     
       .two{
        
         margin-left: 470px;

@@ -125,9 +125,7 @@ table {
       font-size: 10px;
     }
   }
-  .coainer{
-    
-  }
+
   @media screen and (max-width: 580px) {
     .container {
       width: 100%;
@@ -388,9 +386,7 @@ table {
     align-items: center;
     justify-content: center;
       }
-      #toggleMenuBtn{
-
-      }
+     
       .two{
        
         margin-left: 470px;
